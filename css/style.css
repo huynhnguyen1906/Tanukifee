@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FDF6EF;
+    background-image: url(../images/web.png);
+    background-position: top right;
+    background-repeat: repeat-y;
+    font-family: roboto;
+    font-size: 16px;
+}
+/* HEADER CSS STYLE */
+#header {
+    width: 1920px;
+    margin: 0 auto;
+}
+#nav_bar {
+    width: 1200px;
+    height: 130px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+#logo {
+    width: 338px;
+    height: 100px;
+    margin: auto 0;
+}
+ul {
+    list-style-type: none;
+}
+#nav_menu {
+    display: flex;
+    height: 100px;
+    margin: auto 0;
+    position: relative;
+    left: 150px;
+}
+#nav_menu li a{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 25px;
+    text-align: center;
+    line-height: 100px;
+    text-decoration: none;
+    color: #000;
+}
+#banner {
+    position: relative;
+    height: 1000px;
+    width: 1920px;
+}
+#main_visual {
+    position: relative;
+}
+#main_visual {
+    position: absolute;
+    width: 100%;
+}
+#index_banner_text {
+    width: 617px;
+    height: 240px;
+    position: absolute;
+    bottom: 215px;
+    left: 215px;
+}
+#sub_logo {
+    position: absolute;
+    width: 590px;
+    height: 540px;
+    bottom: 215px;
+    right: 175px;
+}
+/* CONTENT CSS STYLE */
+#content {
+    width: 1320px;
+    margin: 0 auto;
+}
+#about {
+    position: relative;
+    width: 1320px;
+    height: 600px;
+    margin-top: 300px;
+}
+#about_picture {
+    height: 600px;
+    width: 800px;
+    position: absolute;
+}
+#text_box {
+    width: 550px;
+    height: 300px;
+    background-color: #FDF4EF;
+    position: absolute;
+    z-index: 1000;
+    right: 0;
+    top: 150px;
+    line-height: 1.8em;
+    border-radius: 2em;
+    filter: drop-shadow(5px 5px 10px #000000);
+    padding: 20px 30px 30px 30px;
+}
+#sub_title {
+    font-size: 32px;
+    width: 230px;
+    height: 43px;
+    margin: 0 0 0 5px;
+}
+#title {
+    font-size: 48px;
+    height: 58px;
+    margin: 5px;
+}
+#text {
+    font-size: 16px;
+    margin-top: 0;
+    margin-right: 5px;
+}
+.navigate img {
+    width: 27px;
+    height: 15px;
+}
+.navigate p {
+    color: #fff;
+    padding-left: 5px;
+    text-decoration: underline;
+}
+.navigate {
+    display: flex;
+    height: 30px;
+    width: 130px;
+    background-color: #707070;
+    align-items: center;
+    padding: 0 5px;
+}
+.navigate:hover {
+    border-radius: 1em;
+}
+
