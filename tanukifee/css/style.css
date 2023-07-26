@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #FDF6EF;
-    background-image: url(../images/index-img/web.png);
+    background-image: url(../images/web.png);
     background-position: top left;
     background-repeat: repeat-y;
     font-family: "roboto", sans-serif;
@@ -16,7 +16,6 @@ body{
 #header {
     width: 100%;
     position: relative;
-
 }
 #nav_bar {
     width: 1200px;
@@ -68,6 +67,18 @@ ul {
     bottom: 215px;
     right: 200px;
     visibility: hidden;
+}
+#button_top {
+    position: fixed;
+    z-index: 1500;
+    height: 75px;
+    width: 75px;
+    left: 5%;
+    bottom: 5%;
+    background-color: #510909;
+    border-radius: 1em;
+    text-align: center;
+    line-height: 75px;
 }
 /* CONTENT CSS STYLE */
 #content {
@@ -388,7 +399,7 @@ span {
     font-weight: bold;
 }
 #right {
-    margin-top: 75px;
+    margin-top: 45px;
     margin-right: 75px;
 }
 #right li {

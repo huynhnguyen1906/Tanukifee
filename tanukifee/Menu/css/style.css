@@ -86,8 +86,9 @@ ul {
     width: 1200px;
     margin: 0 auto;
 }
-#soft_menu {
-    margin-left: 20px;
+#drink_menu {
+    width: 100%;
+    margin: 70px auto 0 auto;
 }
 .left_border {
     margin-left: 20px;
@@ -103,9 +104,37 @@ ul {
 }
 .soft_item {
     margin: 20px 5px 0 5px;
-
+    text-align: left;
 }
-
+#cafe_menu {
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cafe_item {
+    margin: 20px 5px 0 5px;
+    text-align: left;
+}
+#dessert_menu {
+    width: 100%;
+    margin: 70px auto 0 auto;
+}
+#dessert_box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.dessert_item {
+    margin: 20px 5px 0 5px;
+    text-align: left;
+}
+.item_title {
+    margin: 0;
+}
+.price {
+    margin: 5px 0;
+    font-weight: bold;
+}
 /* FOOTER CSS STYLE */
 #footer {
     margin-top: 70px;
