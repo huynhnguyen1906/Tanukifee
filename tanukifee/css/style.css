@@ -5,7 +5,7 @@ body{
     background-image: url(../images/web.png);
     background-position: top left;
     background-repeat: repeat-y;
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
 }
 #container {
