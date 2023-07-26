@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FDF6EF;
+    background-image: url(../images/web.png);
+    background-position: top left;
+    background-repeat: repeat-y;
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+}
+#container {
+    width: 100%;
+    max-width: 1920px;
+}
+/* HEADER CSS STYLE */
+#header {
+    width: 100%;
+    position: relative;
+
+}
+#nav_bar {
+    width: 1200px;
+    height: 130px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+#logo {
+    width: 338px;
+    height: 100px;
+    margin: auto 0;
+}
+ul {
+    list-style-type: none;
+}
+#nav_menu {
+    display: flex;
+    height: 100px;
+    margin: auto 0;
+    position: relative;
+    left: 150px;
+    padding: 0;
+}
+#nav_menu li a{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 25px;
+    text-align: center;
+    line-height: 100px;
+    text-decoration: none;
+    color: #000;
+}
+#banner {
+    position: relative;
+    width: 100%;
+}
+#banner img {
+    width: 100%;
+}
+#index_banner_text {
+    position: absolute;
+    bottom: 215px;
+    left: 215px;
+    visibility: hidden;
+}
+#sub_logo {
+    position: absolute;
+    bottom: 215px;
+    right: 200px;
+    visibility: hidden;
+}
+#button_top {
+    position: fixed;
+    z-index: 1500;
+    height: 75px;
+    width: 75px;
+    left: 5%;
+    bottom: 5%;
+    background-color: #510909;
+    border-radius: 1em;
+    text-align: center;
+    line-height: 75px;
+}
+/* CONTENT CSS STYLE */
+#content {
+    width: 1200px;
+    margin: 0 auto;
+}
+#soft_menu {
+    margin-left: 20px;
+}
+.left_border {
+    margin-left: 20px;
+    border-left: #000 solid 3px;
+}
+.left_border h2 {
+    margin-left: 50px;
+}
+#soft_menu {
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.soft_item {
+    margin: 20px 5px 0 5px;
+
+}
+
+/* FOOTER CSS STYLE */
+#footer {
+    margin-top: 70px;
+    background-color: #FFF0E3;
+    height: 300px;
+}
+#footer_box {
+    height: 300px;
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+}
+#left {
+    display: flex;
+    flex: 60%;
+}
+#left li {
+    margin-top: 15px;
+}
+#middle_box {
+    margin-top: 175px;
+    margin-left: 50px;
+    width: 240px;
+    height: 75px;
+}
+#middle_box li {
+    text-align: right;
+    margin-top: 10px;
+}
+span {
+    font-weight: bold;
+}
+#right {
+    margin-top: 75px;
+    margin-right: 75px;
+}
+#right li {
+    margin-top: 10px;
+}
+#right li a {
+    color: #000;
+    text-decoration: underline;
+}
+#img_box {
+    display: flex;
+}
+#img_box a {
+    margin: 0 15px;
+}
