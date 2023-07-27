@@ -338,6 +338,7 @@ ul {
     height: 600px;
     width: 900px;
     border-radius: 2em;
+    filter: drop-shadow(5px 5px 10px #000000);
 }
 #contact_text_box {
     width: 500px;
