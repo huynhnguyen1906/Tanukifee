@@ -83,57 +83,102 @@ ul {
 }
 /* CONTENT CSS STYLE */
 #content {
+    width: 100%;
+}
+.concept {
+    position: relative;
     width: 1200px;
-    margin: 0 auto;
+    height: 600px;
+    margin: 200px auto 0 auto;
 }
-#drink_menu {
-    width: 100%;
-    margin: 70px auto 0 auto;
+.concept_picture_left {
+    height: 600px;
+    width: 800px;
+    position: absolute;
+    left: 0;
 }
-.left_border {
-    margin-left: 20px;
-    border-left: #000 solid 3px;
+#text_box_1 {
+    width: 500px;
+    height: 300px;
+    background-color: #FDF4EF;
+    position: absolute;
+    z-index: 1000;
+    right: 0;
+    top: 150px;
+    line-height: 1.8em;
+    border-radius: 2em;
+    filter: drop-shadow(5px 5px 10px #000000);
+    padding: 20px 30px 30px 30px;
 }
-.left_border h2 {
-    margin-left: 50px;
+#text_box_1 h2 {
+    font-size: 32px;
+    width: 230px;
+    margin: 15px 0 0px 0;
 }
-#soft_menu {
-    margin-left: 50px;
-    display: flex;
-    flex-wrap: wrap;
+#text_box_1 h1 {
+    font-size: 48px;
+    margin: 20px 0 15px 0;
 }
-.soft_item {
-    margin: 20px 5px 0 5px;
-    text-align: left;
+.concept_text {
+    font-size: 16px;
+    margin-top: 35px;
 }
-#cafe_menu {
-    margin-left: 50px;
-    display: flex;
-    flex-wrap: wrap;
+.concept_picture_right {
+    height: 600px;
+    width: 800px;
+    position: absolute;
+    right: 0;
 }
-.cafe_item {
-    margin: 20px 5px 0 5px;
-    text-align: left;
+#text_box_2 {
+    width: 500px;
+    height: 300px;
+    background-color: #FDF4EF;
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    top: 150px;
+    line-height: 1.8em;
+    border-radius: 2em;
+    filter: drop-shadow(5px 5px 10px #000000);
+    padding: 20px 30px 30px 30px;
 }
-#dessert_menu {
-    width: 100%;
-    margin: 70px auto 0 auto;
+#text_box_2 h1 {
+    font-size: 48px;
+    margin: 20px 0 20px 0;
 }
-#dessert_box {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 50px;
+#text_box_3 {
+    width: 500px;
+    height: 300px;
+    background-color: #FDF4EF;
+    position: absolute;
+    z-index: 1000;
+    right: 0;
+    top: 150px;
+    line-height: 1.8em;
+    border-radius: 2em;
+    filter: drop-shadow(5px 5px 10px #000000);
+    padding: 20px 30px 30px 30px;
 }
-.dessert_item {
-    margin: 20px 5px 0 5px;
-    text-align: left;
+#text_box_3 h1 {
+    font-size: 48px;
+    margin: 50px 0 15px 0;
 }
-.item_title {
-    margin: 0;
+#text_box_4 {
+    width: 500px;
+    height: 300px;
+    background-color: #FDF4EF;
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    top: 150px;
+    line-height: 1.8em;
+    border-radius: 2em;
+    filter: drop-shadow(5px 5px 10px #000000);
+    padding: 20px 30px 30px 30px;
 }
-.price {
-    margin: 5px 0;
-    font-weight: bold;
+#text_box_4 h1 {
+    font-size: 48px;
+    margin: 55px 0 20px 0;
 }
 /* FOOTER CSS STYLE */
 #footer {

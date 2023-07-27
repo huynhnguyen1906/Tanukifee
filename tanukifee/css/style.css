@@ -173,8 +173,8 @@ ul {
 }
 #img_box a {
     text-align: center;
-    margin: 10px 20px;
-    flex: 20%;
+    margin: 10px 0px;
+    flex: 20%
 }
 #menu {
     width: 1320px;
