@@ -337,6 +337,7 @@ ul {
     right: 0;
     height: 600px;
     width: 900px;
+    border-radius: 2em;
 }
 #contact_text_box {
     width: 500px;
