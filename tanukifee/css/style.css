@@ -3,14 +3,16 @@ body{
     padding: 0;
     background-color: #FDF6EF;
     background-image: url(../images/web.png);
-    background-position: top left;
-    background-repeat: repeat-y;
+    background-position: top;
+    background-repeat: repeat;
+    background-size: 100% 100%;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
 }
 #container {
     width: 100%;
     max-width: 1920px;
+    margin: 0 auto;
 }
 /* HEADER CSS STYLE */
 #header {
