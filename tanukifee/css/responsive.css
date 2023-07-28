@@ -1,0 +1,218 @@
+@media (max-width: 1440px) {
+    #img_box a img {
+        width: 300px;
+    }
+}
+@media (max-width:1024px) {
+    #button_top {
+        height: 50px;
+        width: 50px;
+    }
+    #button_top img {
+        width: 45px;
+        margin-bottom: 10px;
+    }
+    #logo {
+        width: 300px;
+    }
+    #logo img {
+        width: 300px;
+        margin-top: 5px;
+    }
+    #nav_bar {
+        width: 100%;  
+        height: 100px;
+    }
+    #nav_menu {
+        position: static;
+        margin: auto;
+        margin-right: 20px;
+    }
+    #nav_menu li a {
+        font-size: 20px;
+    }
+    #about {
+        width: 90%;
+        height: 450px;
+        margin-top: 100px;
+    }
+    #about_picture img {
+        height: 450px;
+        width: 600px;
+    }
+    #text_box {
+        width: 400px;
+        height: 220px;
+        top: 100px;
+        line-height: 1.5em;
+    }
+    #text_box h2 {
+        font-size: 1.4em ;
+    }
+    #text_box h1 {
+        font-size: 2.25em;
+        margin: 15px 5px;
+    }
+    #concept_text {
+        margin-bottom: 5px;
+    }
+    #concept_button {
+        height: 30px;
+    }
+    #img_box a img {
+        width: 250px;
+    }
+    .title_box {
+        height: 100px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .title {
+        margin: 0 auto;
+        width: 350px;
+        height: 80px;
+        font-size: 2.25em;
+        font-weight: bold;
+        background-color: #F7D9BE;
+        border-radius: 1.5em;
+        text-align: center;
+        line-height: 80px;
+    }
+    #menu {
+        width: 90%;
+        margin-top: 100px;
+    }
+    #drink_menu {
+        width: 100%;
+        height: 450px;
+        margin-top: 50px;
+    }
+    #drink_img img {
+        height: 450px;
+        width: 600px;
+    }
+    #drink_text_box {
+        width: 400px;
+        height: 220px;
+        top: 100px;
+    }
+    #drink_text_box h2 {
+        font-size: 1.4em;  
+        margin: 0;
+    }
+    .menu_button {
+        height: 30px;
+    }
+    .menu_table {
+        font-size: 1em;
+    }
+    .item, .price {
+        height: 40px
+    }
+    
+    #dessert_menu {
+        width: 100%;
+        height: 450px;
+        margin-top: 50px;
+    }
+    #dessert_img img {
+        height: 450px;
+        width: 600px;
+    }
+    #dessert_text_box {
+        width: 400px;
+        height: 220px;
+        top: 100px;
+    }
+    #dessert_text_box h2 {
+        font-size: 1.4em;  
+        margin: 0;
+    }
+    #event {
+        width: 90%;
+        margin-top: 100px;
+    }
+    #event_content {
+        margin-top: 50px;
+        width: 100%;
+        height: 450px;
+    }
+    #event_text_box {
+        height: 450px;
+        width: 475px;
+    }
+    #event_text_box h2 {
+        font-size: 1.4em;
+        margin: 20px auto;
+    }
+    #event_text_box p {
+        font-size: 1em;
+        margin: 5px 30px;
+    }
+    #event_img_box {
+        width: 400px;
+        height: 360px;
+        top: 40px;
+    }
+    #event_img_box img {
+        width: 350px;
+        margin: 55px 20px;
+        /* filter: drop-shadow(5px 5px 10px #000000); */
+    }
+    #contact {
+    width: 90%;
+    }
+    #contact_content {
+        margin-top: 50px;
+        width: 100%;
+        height: 450px;
+    }
+    #contact_map iframe {
+        height: 450px;
+        width: 600px;
+    }
+    #contact_text_box {
+        width: 400px;
+        height: 400px;
+        top: 25px;
+    }
+    #contact_text_box h2 {
+        font-size: 1.4em;
+        margin: 10px;
+        margin-top: 20px;
+    }
+    #contact_text_box ul {
+        font-size: 18px;
+        margin: 10px;
+        padding: 0 15px;
+    }
+    #contact_text_box li {
+        font-size: 16px;
+    }
+    #time_table {
+        font-size: 16px;
+    }
+    #footer_box {
+        width: 100%;
+    }
+    #left {
+        flex: none;
+    }
+    #middle_box {
+        margin-left: 20px;
+        padding: 0;
+    }
+    #middle_box ul {
+        padding-left: 0;
+    }
+    #right {
+        margin-left: 20px;
+        display: flex;
+    }
+    #icon_box {
+        display:block;
+    }
+    #icon_box a img {
+        margin: 10px 15px;
+    }
+}

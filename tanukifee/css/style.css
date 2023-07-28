@@ -26,6 +26,9 @@ body{
     display: flex;
     position: relative;
 }
+#logo_768 img {
+    display: none;
+}
 #logo {
     width: 338px;
     height: 100px;
@@ -37,9 +40,7 @@ ul {
 #nav_menu {
     display: flex;
     height: 100px;
-    margin: auto 0;
-    position: relative;
-    left: 150px;
+    margin: auto 0 auto 150px; 
     padding: 0;
 }
 #nav_menu li a{
@@ -62,13 +63,13 @@ ul {
     position: absolute;
     bottom: 215px;
     left: 215px;
-    visibility: hidden;
+    display: none;
 }
 #sub_logo {
     position: absolute;
     bottom: 215px;
     right: 200px;
-    visibility: hidden;
+    display: none;
 }
 #button_top {
     position: fixed;
@@ -92,7 +93,7 @@ ul {
     height: 600px;
     margin: 200px auto 0 auto;
 }
-#about_picture {
+#about_picture img{
     height: 600px;
     width: 800px;
     position: absolute;
@@ -111,18 +112,14 @@ ul {
     padding: 20px 30px 30px 30px;
 }
 #text_box h2 {
-    font-size: 32px;
-    width: 230px;
-    height: 43px;
+    font-size: 2em;
     margin: 0 0 0 5px;
 }
 #text_box h1 {
-    font-size: 48px;
-    height: 58px;
-    margin: 5px;
+    font-size: 3em;
+    margin: 25px 5px;
 }
 #concept_text {
-    font-size: 16px;
     margin-top: 0;
     margin-right: 5px;
 }
@@ -175,11 +172,11 @@ ul {
 }
 #img_box a {
     text-align: center;
-    margin: 10px 0px;
+    margin: 10px 15px;
     flex: 20%
 }
 #menu {
-    width: 1320px;
+    width: 1200px;
     margin: 0 auto;
     margin-top: 150px;
 }
@@ -188,7 +185,7 @@ ul {
     width: 1200px;
     height: 600px;
 }
-#drink_img {
+#drink_img img{
     height: 600px;
     width: 800px;
     position: absolute;
@@ -207,11 +204,11 @@ ul {
     padding: 20px 30px 30px 30px;
 }
 #drink_text_box h2 {
-    font-size: 32px;
+    font-size: 2em;
     text-align: center;
     margin: 10px 0;
 }
-#menu_button {
+.menu_button {
     display: flex;
     height: 40px;
     width: 130px;
@@ -220,15 +217,15 @@ ul {
     transition: border-radius 0.75s;
     margin: 0 auto;
 }
-#menu_button a {
+.menu_button a {
     color: #fff;
     text-decoration: underline;
     margin: 0 auto;
 }
-#menu_button a img {
+.menu_button a img {
     padding-left: 5px;
 }
-#menu_button:hover {
+.menu_button:hover {
     border-radius: 2em;
     background-color: #8A3434;
 }
@@ -255,7 +252,7 @@ ul {
     height: 600px;
     margin-top: 70px;
 }
-#dessert_img {
+#dessert_img img {
     height: 600px;
     width: 800px;
     position: absolute;
@@ -300,7 +297,7 @@ ul {
     filter: drop-shadow(5px 5px 10px #000000);
 }
 #event_text_box h2 {
-    font-size: 32px;
+    font-size: 2em;
     text-align: center;
     margin: 40px auto;
 }
@@ -354,12 +351,12 @@ ul {
     filter: drop-shadow(5px 5px 10px #000000);
 }
 #contact_text_box h2 {
-    font-size: 32px;
+    font-size: 2em;
     text-align: center;
     margin: 40px 0;
 }
 #contact_text_box ul {
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: bold;
 }
 #contact_text_box li {
@@ -378,7 +375,7 @@ ul {
 }
 #footer_box {
     height: 300px;
-    width: 1320px;
+    width: 1200px;
     margin: 0 auto;
     display: flex;
 }
@@ -390,7 +387,7 @@ ul {
     margin-top: 15px;
 }
 #middle_box {
-    margin-top: 175px;
+    margin-top: 185px;
     margin-left: 50px;
     width: 240px;
     height: 75px;
@@ -404,7 +401,6 @@ span {
 }
 #right {
     margin-top: 45px;
-    margin-right: 75px;
 }
 #right li {
     margin-top: 10px;
@@ -413,9 +409,9 @@ span {
     color: #000;
     text-decoration: underline;
 }
-#img_box {
+#icon_box{
     display: flex;
 }
-#img_box a {
+#icon_box a {
     margin: 0 15px;
 }
