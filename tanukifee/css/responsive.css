@@ -1,16 +1,19 @@
+/* MEDIA MACBOOK 1440px */
 @media (max-width: 1440px) {
     #img_box a img {
         width: 300px;
     }
 }
-@media (max-width:1024px) {
+/* MEDIA HALF SCREEN 1200px */
+@media (max-width:1200px) {
+    /* HEADER CSS */
     #button_top {
         height: 50px;
         width: 50px;
     }
     #button_top img {
         width: 45px;
-        margin-bottom: 10px;
+        margin-bottom: 12px;
     }
     #logo {
         width: 300px;
@@ -31,6 +34,7 @@
     #nav_menu li a {
         font-size: 20px;
     }
+    /* CONTENT CSS */
     #about {
         width: 90%;
         height: 450px;
@@ -58,6 +62,9 @@
     }
     #concept_button {
         height: 30px;
+    }
+    #img_gallery {
+        margin-top: 100px;
     }
     #img_box a img {
         width: 250px;
@@ -160,7 +167,8 @@
         /* filter: drop-shadow(5px 5px 10px #000000); */
     }
     #contact {
-    width: 90%;
+        margin-top: 100px;
+        width: 90%;
     }
     #contact_content {
         margin-top: 50px;
@@ -192,6 +200,7 @@
     #time_table {
         font-size: 16px;
     }
+    /* FOOTER CSS */
     #footer_box {
         width: 100%;
     }
@@ -206,13 +215,373 @@
         padding-left: 0;
     }
     #right {
-        margin-left: 20px;
+        margin-top: 50px;
+        margin-left: 30px;
         display: flex;
     }
-    #icon_box {
-        display:block;
+    #right ul {
+        padding: 0;
     }
-    #icon_box a img {
-        margin: 10px 15px;
+    #icon_box {
+        display: unset;
+        width: 60px;
+    }
+    #icon_box img {
+        margin: 10px;
+        margin-right: 0;
+    }
+}
+/* MEDIA TABLET 768px */
+@media (max-width: 768px) {
+    /* HEADER CSS */
+    #logo {
+        margin-left: 20px;
+        height: 100px;
+        width: 100px;
+    }
+    #logo_web{
+        display: none;
+    }
+    #logo_768 img {
+        height: 100px;
+        width: 100px;
+        display: unset;
+    }
+    /* CONTENT CSS */
+    #about_picture {
+        margin: 0 auto;
+        height: 450px;
+        width: 600px;
+    }
+    #about_picture img {
+        height: 450px;
+        width: 600px;
+        margin: 0 auto;
+    }
+    #text_box {
+        width: 400px;
+        height: 220px;
+        margin: 0 auto;
+        left: 0;
+        top: 160px;
+        line-height: 1.5em;
+    }
+    #img_box a img {
+        width: 200px;
+    }
+    #drink_img {
+        height: 450px;
+        width: 600px;
+        margin: 0 auto;
+    } 
+    #drink_text_box {
+        width: 400px;
+        height: 220px;
+        margin: 0 auto;
+        left: 0;
+        top: 160px;
+    }
+    #dessert_img {
+        height: 450px;
+        width: 600px;
+        margin: 0 auto;
+    }
+    #dessert_img img {
+        height: 450px;
+        width: 600px;
+        margin: 0 auto;
+        left: 0;
+    }
+    #dessert_text_box {
+        width: 400px;
+        height: 220px;
+        margin-left: 115px;
+        top: 160px;
+    }
+    #event_text_box {
+        height: 450px;
+        width: 400px;
+    }
+    #event_text_box p {
+        font-size: 1em;
+        margin: 5px 30px;
+    }
+    #point_card {
+        display: none;
+    }
+    #event_img_box {
+        width: 200px;
+        height: 261px;
+        padding: 0;
+        background-color: transparent;
+    }
+    #event_img_box img {
+        width: 250px;
+        margin: 0;
+    }
+    #event_text_box h2 {
+        margin-bottom: 5px;
+    }
+    #point_card_768 {
+        display: unset;
+    }
+    #contact_content {
+        height: auto;
+        margin-top: 20px;
+    }
+    #contact_map {
+        height: 250px;
+        margin: 0 auto;
+        width: 600px;
+    }
+    #contact_map iframe {
+        margin-top: 20px;
+        position: static;
+        height: 250px;
+        width: 600px;
+    }
+    #contact_text_box {
+        position: static;
+        width: 500px;
+        height: 400px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    /* FOOTER CSS */
+    #footer {
+        height: 400px;
+    }
+    #footer_box {
+        height: 400px;
+        width: 100%;
+    }
+    #left {
+        display: unset;
+        flex: none;
+    }
+    #information_box {
+        text-align: center;
+    }
+    #information_box li {
+        text-align: left;
+    }
+    #middle_box {
+        margin-left: 20px;
+        padding: 0;
+        margin-top: 0;
+        margin-left: 40px;
+    }
+    #middle_box ul {
+        text-align: left;
+    }
+    #middle_box li {
+        text-align: right;
+    }
+    #right {
+        margin-top: 100px;
+        margin-left: 50px;
+        display: flex;
+    }
+    #right ul {
+        padding: 0;
+    }
+    #right ul span{
+        font-size: 20px;
+    }
+    #right ul li {
+        margin-top: 20px;
+    }
+    #icon_box {
+        display: unset;
+        width: 60px;
+    }
+    #icon_box img {
+        margin: 10px;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+}
+@media (max-width: 450px) {
+    /* HEADER CSS */
+    #logo {
+        display: none;
+    }
+    #nav_menu {
+        width: 100%;
+        margin-left: 10px;
+        height: 75px;
+    }
+    #nav_menu li a {
+        font-size: 16px;
+        text-align: center;
+        line-height: 75px;
+    }
+    #main_visual {
+        display: none;
+    }
+    #sub_logo {
+        display: block ;
+        position: static;
+        width: 60%;
+        margin: 0 auto;
+    }
+    #index_banner_text {
+        width: 90%;
+        display: block;
+        position: static;
+        margin: 0 auto;
+    }
+    /* CONTENT CSS */
+    #about_picture {
+        margin: 0 auto;
+        height: 450px;
+        width: 600px;
+    }
+    #about_picture img {
+        height: 450px;
+        width: 600px;
+        margin: 0 auto;
+    }
+    #text_box {
+        width: 400px;
+        height: 220px;
+        margin: 0 auto;
+        left: 0;
+        top: 160px;
+        line-height: 1.5em;
+    }
+    #img_box a img {
+        width: 200px;
+    }
+    #drink_img {
+        height: 450px;
+        width: 600px;
+        margin: 0 auto;
+    } 
+    #drink_text_box {
+        width: 400px;
+        height: 220px;
+        margin: 0 auto;
+        left: 0;
+        top: 160px;
+    }
+    #dessert_img {
+        height: 450px;
+        width: 600px;
+        margin: 0 auto;
+    }
+    #dessert_img img {
+        height: 450px;
+        width: 600px;
+        margin: 0 auto;
+        left: 0;
+    }
+    #dessert_text_box {
+        width: 400px;
+        height: 220px;
+        margin-left: 115px;
+        top: 160px;
+    }
+    #event_text_box {
+        height: 450px;
+        width: 400px;
+    }
+    #event_text_box p {
+        font-size: 1em;
+        margin: 5px 30px;
+    }
+    #point_card {
+        display: none;
+    }
+    #event_img_box {
+        width: 200px;
+        height: 261px;
+        padding: 0;
+        background-color: transparent;
+    }
+    #event_img_box img {
+        width: 250px;
+        margin: 0;
+    }
+    #event_text_box h2 {
+        margin-bottom: 5px;
+    }
+    #point_card_768 {
+        display: unset;
+    }
+    #contact_content {
+        height: auto;
+        margin-top: 20px;
+    }
+    #contact_map {
+        height: 250px;
+        margin: 0 auto;
+        width: 600px;
+    }
+    #contact_map iframe {
+        margin-top: 20px;
+        position: static;
+        height: 250px;
+        width: 600px;
+    }
+    #contact_text_box {
+        position: static;
+        width: 500px;
+        height: 400px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    /* FOOTER CSS */
+    #footer {
+        height: 400px;
+    }
+    #footer_box {
+        height: 400px;
+        width: 100%;
+    }
+    #left {
+        display: unset;
+        flex: none;
+    }
+    #information_box {
+        text-align: center;
+    }
+    #information_box li {
+        text-align: left;
+    }
+    #middle_box {
+        margin-left: 20px;
+        padding: 0;
+        margin-top: 0;
+        margin-left: 40px;
+    }
+    #middle_box ul {
+        text-align: left;
+    }
+    #middle_box li {
+        text-align: right;
+    }
+    #right {
+        margin-top: 100px;
+        margin-left: 50px;
+        display: flex;
+    }
+    #right ul {
+        padding: 0;
+    }
+    #right ul span{
+        font-size: 20px;
+    }
+    #right ul li {
+        margin-top: 20px;
+    }
+    #icon_box {
+        display: unset;
+        width: 60px;
+    }
+    #icon_box img {
+        margin: 10px;
+        margin-top: 20px;
+        margin-right: 0;
     }
 }
