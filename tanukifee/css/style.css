@@ -52,6 +52,7 @@ ul {
     text-decoration: none;
     color: #000;
     position: relative;
+    overflow: hidden;
 }
 #nav_menu li a::after {
     content: "";
@@ -63,6 +64,7 @@ ul {
     bottom: -100%;
     transition: all 0.3s ;
     overflow: hidden;
+
 }
 #nav_menu li a:hover::after {
     width: 80%;
@@ -327,6 +329,7 @@ ul {
     position: absolute;
     z-index: 1000;
     top: 145px;
+    left: 0;
     line-height: 1.8em;
     border-radius: 2em;
     filter: drop-shadow(5px 5px 10px #000000);
@@ -465,7 +468,7 @@ ul {
     text-align: right;
     margin-top: 10px;
 }
-span {
+#middle_box span {
     font-weight: bold;
 }
 #right {

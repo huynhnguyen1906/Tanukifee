@@ -248,15 +248,16 @@
         display: unset;
     }
     /* CONTENT CSS */
+    #about {
+        width: 100%;
+    }
     #about_picture {
         margin: 0 auto;
+        width: 95%;
         height: 450px;
-        width: 600px;
     }
     #about_picture img {
-        height: 450px;
-        width: 600px;
-        margin: 0 auto;
+        width: 95%;
     }
     #text_box {
         width: 400px;
@@ -270,32 +271,33 @@
         width: 200px;
     }
     #drink_img {
-        height: 450px;
-        width: 600px;
         margin: 0 auto;
-    } 
+        width: 95%;
+        height: 450px;
+    }
+    #drink_img img {
+        width: 95%;
+    }  
     #drink_text_box {
-        width: 400px;
+        width: 380px;
         height: 220px;
         margin: 0 auto;
         left: 0;
         top: 160px;
     }
     #dessert_img {
-        height: 450px;
-        width: 600px;
         margin: 0 auto;
+        width: 95%;
+        height: 450px;
     }
     #dessert_img img {
-        height: 450px;
-        width: 600px;
-        margin: 0 auto;
-        left: 0;
+        width: 95%;
     }
     #dessert_text_box {
-        width: 400px;
+        width: 380px;
         height: 220px;
-        margin-left: 115px;
+        right: 0;
+        margin: 0 auto;
         top: 160px;
     }
     #event_text_box {
@@ -332,13 +334,13 @@
     #contact_map {
         height: 250px;
         margin: 0 auto;
-        width: 600px;
+        width: 95%;
     }
     #contact_map iframe {
         margin-top: 20px;
         position: static;
         height: 250px;
-        width: 600px;
+        width: 100%;
     }
     #contact_text_box {
         position: static;
@@ -379,7 +381,7 @@
     }
     #right {
         margin-top: 100px;
-        margin-left: 50px;
+        margin-left: 10px;
         display: flex;
     }
     #right ul {
@@ -396,8 +398,8 @@
         width: 60px;
     }
     #icon_box img {
-        margin: 10px;
-        margin-top: 20px;
+        margin: 0px;
+        margin-top: 25px;
         margin-right: 0;
     }
 }
@@ -408,13 +410,16 @@
     }
     #nav_menu {
         width: 100%;
-        margin-left: 10px;
         height: 75px;
+        width: 100%;
+        margin: 0;
+        background: rgba(0, 0, 0, 0.2);
     }
     #nav_menu li a {
         font-size: 16px;
         text-align: center;
         line-height: 75px;
+        padding: 15px;
     }
     #main_visual {
         display: none;
@@ -431,60 +436,133 @@
         position: static;
         margin: 0 auto;
     }
+    
+    
     /* CONTENT CSS */
+    #about {
+        height: 250px;
+    }
     #about_picture {
         margin: 0 auto;
-        height: 450px;
-        width: 600px;
+        height: auto;
+        width: 95%;
     }
     #about_picture img {
-        height: 450px;
-        width: 600px;
+        width: 95%;
+        height: auto;
         margin: 0 auto;
     }
     #text_box {
-        width: 400px;
-        height: 220px;
+        color: #fff;
+        width: 95%;
+        height: auto;
         margin: 0 auto;
-        left: 0;
-        top: 160px;
+        margin-top: 5px;
+        padding: 0;
+        top: 0;
         line-height: 1.5em;
+        background-color: transparent;
+        filter: drop-shadow(5px 5px 5px #000000);
+    }
+    #text_box h1 {
+        margin: 5px;
+    }
+    #text_box h2 {
+        display: none;
+    }
+    #concept_text span {
+        display: none;
+    }
+    #concept_text {
+        margin-left: 5px;
     }
     #img_box a img {
-        width: 200px;
+        width: 130px;
+    }
+    .title {
+        width: 340px;
+    }
+    #menu {
+        width: 100%;
+    }
+    .item, .price {
+        height: 35px;
+    }
+    #drink_menu {
+        height: 300px;
     }
     #drink_img {
-        height: 450px;
-        width: 600px;
+        margin-top: 20px;
+        height: 300px;
+        width: 95%;
         margin: 0 auto;
-    } 
+    }
+    #drink_img img {
+        height: 95%;
+        width: 95%;
+        margin: 0 auto;
+    }
     #drink_text_box {
-        width: 400px;
-        height: 220px;
+        color: #fff;
+        width: 95%;
+        height: auto;
         margin: 0 auto;
-        left: 0;
-        top: 160px;
+        margin-top: 5px;
+        padding: 0;
+        left: 0;   
+        top: 0;
+        line-height: 1.5em;
+        background-color: transparent;
+        filter: drop-shadow(5px 5px 5px #000000);
+    }
+    #dessert_menu {
+        height: 300px;
     }
     #dessert_img {
-        height: 450px;
-        width: 600px;
+        margin-top: 20px;
+        height: 300;
+        width: 95%;
         margin: 0 auto;
     }
     #dessert_img img {
-        height: 450px;
-        width: 600px;
+        height: 95%;
+        width: 100%;
         margin: 0 auto;
-        left: 0;
     }
     #dessert_text_box {
-        width: 400px;
-        height: 220px;
-        margin-left: 115px;
-        top: 160px;
+        color: #fff;
+        width: 95%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 5px;
+        padding: 0;
+        top: 0;
+        right: 0;
+        line-height: 1.5em;
+        background-color: transparent;
+        filter: drop-shadow(5px 5px 5px #000000);
+    }
+    #event {
+        width: 100%;
+        height: 900px;
+    }
+    #event_content {
+        margin-top: 20px;
     }
     #event_text_box {
-        height: 450px;
-        width: 400px;
+        width: 95%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 5px;
+        padding: 0;
+        top: 0;
+        right: 0;
+        line-height: 1.5em;
+        filter: drop-shadow(5px 5px 5px #000000);
+        position: static;
+    }
+    #event_text_box span {
+        display: none;
     }
     #event_text_box p {
         font-size: 1em;
@@ -494,94 +572,62 @@
         display: none;
     }
     #event_img_box {
-        width: 200px;
-        height: 261px;
+        width: 95%;
+        height: auto;
         padding: 0;
         background-color: transparent;
+        margin: 0 auto;
+        position: static;
     }
     #event_img_box img {
-        width: 250px;
-        margin: 0;
+        width: 100%;
     }
-    #event_text_box h2 {
-        margin-bottom: 5px;
-    }
-    #point_card_768 {
-        display: unset;
+    #contact {
+        width: 100%;
     }
     #contact_content {
+        width: 95%;
         height: auto;
         margin-top: 20px;
+        margin: 0 auto;
     }
     #contact_map {
         height: 250px;
         margin: 0 auto;
-        width: 600px;
+        width: 100%;
     }
     #contact_map iframe {
-        margin-top: 20px;
         position: static;
         height: 250px;
-        width: 600px;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 100%;
     }
     #contact_text_box {
         position: static;
-        width: 500px;
-        height: 400px;
+        width: 100%;
+        height: auto;
         margin: 0 auto;
         padding-top: 20px;
+        padding-bottom: 20px;
     }
     /* FOOTER CSS */
     #footer {
-        height: 400px;
+        height: auto;
+        width: 100%;
     }
     #footer_box {
-        height: 400px;
-        width: 100%;
+        height: auto;
+        width: 95%;
+        display: block;
     }
     #left {
         display: unset;
         flex: none;
     }
-    #information_box {
-        text-align: center;
-    }
-    #information_box li {
-        text-align: left;
-    }
-    #middle_box {
-        margin-left: 20px;
-        padding: 0;
-        margin-top: 0;
-        margin-left: 40px;
-    }
-    #middle_box ul {
-        text-align: left;
-    }
-    #middle_box li {
-        text-align: right;
-    }
     #right {
-        margin-top: 100px;
+        margin-top: 20px;
         margin-left: 50px;
         display: flex;
-    }
-    #right ul {
-        padding: 0;
-    }
-    #right ul span{
-        font-size: 20px;
-    }
-    #right ul li {
-        margin-top: 20px;
-    }
-    #icon_box {
-        display: unset;
-        width: 60px;
-    }
-    #icon_box img {
-        margin: 10px;
-        margin-top: 20px;
-        margin-right: 0;
     }
 }

@@ -27,6 +27,9 @@ body{
     display: flex;
     position: relative;
 }
+#logo_768 img {
+    display: none;
+}
 #logo {
     width: 338px;
     height: 100px;
@@ -51,6 +54,23 @@ ul {
     line-height: 100px;
     text-decoration: none;
     color: #000;
+    position: relative;
+    overflow: hidden;
+}
+#nav_menu li a::after {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    width: 0%;
+    height: 3px;
+    left: 12px;
+    bottom: -100%;
+    transition: all 0.3s ;
+    overflow: hidden;
+}
+#nav_menu li a:hover::after {
+    width: 80%;
+    bottom: 20px;
 }
 #banner {
     position: relative;
@@ -63,13 +83,13 @@ ul {
     position: absolute;
     bottom: 215px;
     left: 215px;
-    visibility: hidden;
+    display: none;
 }
 #sub_logo {
     position: absolute;
     bottom: 215px;
     right: 200px;
-    visibility: hidden;
+    display: none;
 }
 #button_top {
     position: fixed;
@@ -211,7 +231,7 @@ ul {
     text-align: right;
     margin-top: 10px;
 }
-span {
+#middle_box span {
     font-weight: bold;
 }
 #right {

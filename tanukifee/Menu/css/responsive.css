@@ -1,0 +1,221 @@
+@media (max-width:1200px) {
+    /* HEADER CSS */
+    #button_top {
+        height: 50px;
+        width: 50px;
+    }
+    #button_top img {
+        width: 45px;
+        margin-bottom: 12px;
+    }
+    #logo {
+        width: 300px;
+    }
+    #logo img {
+        width: 300px;
+        margin-top: 5px;
+    }
+    #nav_bar {
+        width: 100%;  
+        height: 100px;
+    }
+    #nav_menu {
+        position: static;
+        margin: auto;
+        margin-right: 20px;
+    }
+    #nav_menu li a {
+        font-size: 20px;
+    }
+    /* CONTENT CSS */
+    #content {
+        width: 90%;
+    }
+    .soft_item, .cafe_item, .dessert_item {
+        width: 220px;
+    }
+    .item_image img {
+        width: 100%;
+    }
+    /* FOOTER CSS */
+    #footer_box {
+        width: 100%;
+    }
+    #left {
+        flex: none;
+    }
+    #middle_box {
+        margin-left: 20px;
+        padding: 0;
+    }
+    #middle_box ul {
+        padding-left: 0;
+    }
+    #right {
+        margin-top: 50px;
+        margin-left: 30px;
+        display: flex;
+    }
+    #right ul {
+        padding: 0;
+    }
+    #icon_box {
+        display: unset;
+        width: 60px;
+    }
+    #icon_box img {
+        margin: 10px;
+        margin-right: 0;
+    }
+}
+/* MEDIA TABLET 768px */
+@media (max-width: 768px) {
+    /* HEADER CSS */
+    #logo {
+        margin-left: 20px;
+        height: 100px;
+        width: 100px;
+    }
+    #logo_web{
+        display: none;
+    }
+    #logo_768 img {
+        height: 100px;
+        width: 100px;
+        display: unset;
+    }
+    /* CONTENT CSS */
+    .soft_item, .cafe_item, .dessert_item {
+        width: 30%;
+    }
+    .item_image img {
+        width: 100%;
+    }
+    #soft_menu, #cafe_menu, #dessert_box {
+        margin: 0 auto;
+    }
+    /* FOOTER CSS */
+    #footer {
+        height: 400px;
+    }
+    #footer_box {
+        height: 400px;
+        width: 100%;
+    }
+    #left {
+        display: unset;
+        flex: none;
+    }
+    #information_box {
+        text-align: center;
+    }
+    #information_box li {
+        text-align: left;
+    }
+    #middle_box {
+        margin-left: 20px;
+        padding: 0;
+        margin-top: 0;
+        margin-left: 40px;
+    }
+    #middle_box ul {
+        text-align: left;
+    }
+    #middle_box li {
+        text-align: right;
+    }
+    #right {
+        margin-top: 100px;
+        margin-left: 50px;
+        display: flex;
+    }
+    #right ul {
+        padding: 0;
+    }
+    #right ul span{
+        font-size: 20px;
+    }
+    #right ul li {
+        margin-top: 20px;
+    }
+    #icon_box {
+        display: unset;
+        width: 60px;
+    }
+    #icon_box img {
+        margin: 10px;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+}
+@media (max-width: 450px) {
+    /* HEADER CSS */
+    #logo {
+        display: none;
+    }
+    #nav_menu {
+        width: 100%;
+        height: 75px;
+        width: 100%;
+        margin: 0;
+        background: rgba(0, 0, 0, 0.2);
+    }
+    #nav_menu li a {
+        font-size: 16px;
+        text-align: center;
+        line-height: 75px;
+        padding: 15px;
+    }
+    #main_visual {
+        display: none;
+    }
+    #sub_logo {
+        display: block ;
+        position: static;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #index_banner_text {
+        width: 95%;
+        display: block;
+        position: static;
+        margin: 0 auto;
+    }
+    /* CONTENT CSS */
+    #content {
+        width: 95%;
+    }
+    .left_border {
+        margin-left: 0;
+    }
+    .soft_item, .cafe_item, .dessert_item {
+        flex: 45%;
+    }
+    #soft_menu, #cafe_menu, #dessert_box {
+        margin-left: 15px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .item_image img {
+        width: 100%;
+    }
+    /* FOOTER CSS */
+    #footer {
+        height: auto;
+        width: 100%;
+    }
+    #footer_box {
+        height: auto;
+        width: 95%;
+        display: block;
+    }
+    #left {
+        display: unset;
+        flex: none;
+    }
+    #right {
+        margin-top: 20px;
+        margin-left: 50px;
+        display: flex;
+    }
+}
