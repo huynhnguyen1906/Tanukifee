@@ -186,6 +186,9 @@
         margin: 0;
         background: rgba(0, 0, 0, 0.2);
     }
+    #nav_menu li {
+        flex: 20%;
+    }
     #nav_menu li a {
         font-size: 16px;
         text-align: center;
