@@ -103,6 +103,25 @@ ul {
     border-radius: 1em;
     text-align: center;
     line-height: 75px;
+    overflow: hidden;
+}
+#button_top::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #707070;
+    bottom: -100%;
+    left: 0;
+    border-radius: 1em;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+}
+#button_top:hover::before {
+    bottom: 0;
+}
+#button_top a {
+    z-index: 10;
 }
 /* CONTENT CSS STYLE */
 #content {
