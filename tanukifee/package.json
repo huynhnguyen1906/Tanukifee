@@ -1,0 +1,91 @@
+{
+	"name": "botoryx-v3",
+	"version": "3.2.0",
+	"private": true,
+	"license": "MIT",
+	"main": "build/main.js",
+	"scripts": {
+		"prebuild": "rimraf build tsconfig.tsbuildinfo && npm run typecheck",
+		"postbuild": "rimraf build/config_development.json5",
+		"build": "swc src --copy-files -d build --config-file .swcrc",
+		"build:changelog": "npx @ discordx/changelog --root=src",
+		"dev": "nodemon --ignore logs/ --ignore build/ --exec node -r @swc-node/register src/main.ts",
+		"dev:tsnd": "cross-env NODE_ENV=development ts-node-dev -r tsconfig-paths/register src/main.ts",
+		"start": "cross-env NODE_ENV=production node build/main.js",
+		"lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+		"format": "prettier --write \"{src,apps,libs,test}/**/*.ts\"",
+		"typecheck": "tsc --noEmit",
+		"postinstall": "husky install"
+	},
+	"dependencies": {
+		"@discordjs/voice": "^0.16.0",
+		"@discordx/importer": "^1.2.3",
+		"@typegoose/typegoose": "^11.4.1",
+		"axios": "^1.5.0",
+		"chalk": "^5.3.0",
+		"convert-seconds": "^1.0.1",
+		"convict": "^6.2.4",
+		"cron": "^2.4.3",
+		"cross-env": "^7.0.3",
+		"dayjs": "^1.11.9",
+		"discord.js": "14.13.0",
+		"discord.js-minesweeper": "^1.1.0",
+		"discordx": "^11.7.6",
+		"fluent-ffmpeg": "^2.1.2",
+		"i18next": "^23.4.6",
+		"i18next-fs-backend": "^2.1.5",
+		"iso-639-1": "^3.1.0",
+		"jinaai": "^0.2.16",
+		"json5": "^2.2.3",
+		"kazagumo": "^2.3.2",
+		"libsodium-wrappers": "^0.7.11",
+		"lodash": "^4.17.21",
+		"microsoft-cognitiveservices-speech-sdk": "^1.31.0",
+		"mongoose": "^7.4.5",
+		"openai": "^4.11.1",
+		"pagination.djs": "^4.0.12",
+		"prism-media": "^2.0.0-alpha.0",
+		"redis": "^4.6.10",
+		"shoukaku": "^3.4.0",
+		"winston": "^3.10.0",
+		"winston-daily-rotate-file": "^4.7.1",
+		"ws": "^8.13.0"
+	},
+	"devDependencies": {
+		"@swc-node/register": "^1.6.8",
+		"@swc/cli": "^0.1.62",
+		"@swc/core": "^1.3.92",
+		"@swc/helpers": "^0.5.2",
+		"@types/convict": "^6.1.3",
+		"@types/fluent-ffmpeg": "^2.1.21",
+		"@types/lodash": "^4.14.197",
+		"@types/node": "^20.5.6",
+		"@types/node-cron": "^3.0.8",
+		"@typescript-eslint/eslint-plugin": "^6.4.1",
+		"@typescript-eslint/parser": "^6.4.1",
+		"eslint": "^8.48.0",
+		"husky": "^8.0.3",
+		"lint-staged": "^14.0.1",
+		"nodemon": "^3.0.1",
+		"prettier": "^3.0.2",
+		"rimraf": "^5.0.1",
+		"ts-node-dev": "^2.0.0",
+		"tsconfig-paths": "^4.2.0",
+		"typescript": "^5.2.2"
+	},
+	"engines": {
+		"node": ">=16.0.0",
+		"npm": ">=7.0.0"
+	},
+	"lint-staged": {
+		"*.ts": [
+			"npm run lint",
+			"npm run format",
+			"npm run build",
+			"git add ."
+		]
+	},
+	"resolutions": {
+		"strip-ansi": "^6.0.1"
+	}
+}
